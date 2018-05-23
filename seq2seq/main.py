@@ -29,6 +29,7 @@ import metrics
 from losses import *
 from optimizers import *
 
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 config = tensorflow.ConfigProto()
 config.gpu_options.allow_growth = True
 sess = tensorflow.Session(config=config)
