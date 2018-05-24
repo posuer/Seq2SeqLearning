@@ -1,6 +1,6 @@
 # Seq2SeqLearning
 ## Introduction
-A fork from <a href="https://github.com/faneshion/Matchzoo">faneshion/Matchzoo</a>, add some new model in Question Answering Field. We rename the repository to show our focus. 
+A fork from <a href="https://github.com/faneshion/Matchzoo">faneshion/Matchzoo</a>, add some new model in Question Answering Field. We rename the repository to show our focus. I have done lots of experiments and modification on this toolkit, please refer to this <a href="https://github.com/SongRb/Seq2SeqLearning/blob/master/docs/cntnExp.pdf">report</a> for detailed result explanation.
 
 ## Environment
 * Python 2.7+
@@ -50,8 +50,6 @@ In testing phase, you can run
 ```
 python seq2seq/main.py --phase predict --model_file examples/wikiqa/config/drmm_wikiqa.config
 ```
-
-For detail of model comparasion, please refer to <a href="https://github.com/SongRb/Seq2SeqLearning/blob/master/docs/cntnExp.pdf">`./doc/cntnEqn.pdf`</a>.
 
 Here is my expriment result(Keep updating)  
 Experiment on normal QA pair:
