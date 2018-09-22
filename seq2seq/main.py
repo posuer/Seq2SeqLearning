@@ -140,7 +140,7 @@ def train(config, pretrained_weights_filename=None):
     path_list.insert(-1, str(train_time))
     base_dir_list = path_list[:-1]
     base_dir = os.path.join(*base_dir_list)
-    os.mkdir(base_dir)
+    os.makedirs(base_dir)
 
     weight_dir = os.path.join(*path_list)
     log_path = os.path.join(base_dir, 'logs')

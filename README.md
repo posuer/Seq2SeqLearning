@@ -28,7 +28,7 @@ The data preparation module aims to convert dataset of different text matching t
 +	**Relation File**: is used to store the relationship between two texts, each line containing a pair of *tids* and the corresponding label.
 +   **Detailed Input Data Format**: a detailed explaination of input data format can be found in `seq2seq/data/example/readme.md`.
 
-Please run `bash ./data/WikiQA/run_data.sh` to get and format dataset.
+Please run `bash run_data.sh` in directory `./data/WikiQA/` to get and format dataset.
 
 
 ### Model Construction

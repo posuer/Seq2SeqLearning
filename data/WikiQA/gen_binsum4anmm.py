@@ -7,8 +7,8 @@ from __future__ import print_function
 
 import os
 import sys
-sys.path.append('../../matchzoo/utils/')
-sys.path.append('../../matchzoo/inputs/')
+sys.path.append('../../seq2seq/inputs/')
+sys.path.append('../../seq2seq/utils/')
 from preprocess import cal_binsum
 from rank_io import *
 
